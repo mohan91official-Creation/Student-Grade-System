@@ -9,13 +9,13 @@ def get_grade(mark: float) -> str:
         raise ValueError("Mark must be a number between 0 and 100.")
 
     if mark >= 90:
-        return "A"
+        return "A - Excellent"
     if mark >= 80:
-        return "B"
+        return "B - Good"
     if mark >= 70:
-        return "C"
+        return "C - Average"
     if mark >= 60:
-        return "D"
+        return "D - Pass"
     return "E"
 
 
